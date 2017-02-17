@@ -10,4 +10,5 @@
 
 @interface TRZX_Test : NSObject
 
+@property (strong, nonatomic) NSString * midStr;
 @end
