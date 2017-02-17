@@ -15,6 +15,7 @@
 		B73EB4951E56C61E00F7E2D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B73EB4931E56C61E00F7E2D9 /* LaunchScreen.storyboard */; };
 		B73EB4A01E56C61E00F7E2D9 /* TRZX_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B73EB49F1E56C61E00F7E2D9 /* TRZX_TestTests.m */; };
 		B73EB4AB1E56C61E00F7E2D9 /* TRZX_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B73EB4AA1E56C61E00F7E2D9 /* TRZX_TestUITests.m */; };
+		B73EB4BF1E56D29300F7E2D9 /* TRZX_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = B73EB4BE1E56D29300F7E2D9 /* TRZX_Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B73EB4A61E56C61E00F7E2D9 /* TRZX_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRZX_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73EB4AA1E56C61E00F7E2D9 /* TRZX_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRZX_TestUITests.m; sourceTree = "<group>"; };
 		B73EB4AC1E56C61E00F7E2D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B73EB4BD1E56D29300F7E2D9 /* TRZX_Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZX_Test.h; sourceTree = "<group>"; };
+		B73EB4BE1E56D29300F7E2D9 /* TRZX_Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZX_Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		B73EB4841E56C61E00F7E2D9 /* TRZX_Test */ = {
 			isa = PBXGroup;
 			children = (
+				B73EB4BC1E56D29300F7E2D9 /* TRZX_Test */,
 				B73EB4881E56C61E00F7E2D9 /* AppDelegate.h */,
 				B73EB4891E56C61E00F7E2D9 /* AppDelegate.m */,
 				B73EB48B1E56C61E00F7E2D9 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				B73EB4AC1E56C61E00F7E2D9 /* Info.plist */,
 			);
 			path = TRZX_TestUITests;
+			sourceTree = "<group>";
+		};
+		B73EB4BC1E56D29300F7E2D9 /* TRZX_Test */ = {
+			isa = PBXGroup;
+			children = (
+				B73EB4BD1E56D29300F7E2D9 /* TRZX_Test.h */,
+				B73EB4BE1E56D29300F7E2D9 /* TRZX_Test.m */,
+			);
+			path = TRZX_Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B73EB48D1E56C61E00F7E2D9 /* ViewController.m in Sources */,
+				B73EB4BF1E56D29300F7E2D9 /* TRZX_Test.m in Sources */,
 				B73EB48A1E56C61E00F7E2D9 /* AppDelegate.m in Sources */,
 				B73EB4871E56C61E00F7E2D9 /* main.m in Sources */,
 			);
@@ -507,6 +521,7 @@
 				B73EB4B11E56C61E00F7E2D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B73EB4B21E56C61E00F7E2D9 /* Build configuration list for PBXNativeTarget "TRZX_TestTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +530,7 @@
 				B73EB4B41E56C61E00F7E2D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B73EB4B51E56C61E00F7E2D9 /* Build configuration list for PBXNativeTarget "TRZX_TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +539,7 @@
 				B73EB4B71E56C61E00F7E2D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
